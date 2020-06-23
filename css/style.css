@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Inizio styling Navbar*/
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.navbar-brand img{
+  height: 100%;
+}
+
+.btn-group .btn:first-child {
+  border: 2px solid #006aff;
+  color: #006aff;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+.navbar-nav > li > a {
+  font-weight: bolder;
+}
+
+.container {
+  width:80%;
+  margin: 0 auto ;
+}
+
+#acquarius {
+  background-color:#0069ff;
+  height: 800px;
+}
+
+
+
+.welcome {
+  position: absolute;
+  top: 50%;
+}

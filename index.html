@@ -8,32 +8,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
     <title>Digital Ocean</title>
   </head>
-  <body>
-    <header>
-        <nav class="navbar navbar-default">
-          <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-                <li><a href="#">Build Secure App with VPC and a Trustworthy Foundation</a></li>
-              </ul>
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Docs</a></li>
-                <li><a href="#">Get Support</a></li>
-                <li><a href="#">Sales</a></li>
-                <li><a href="#">Sign In</a></li>
-              </ul>
-            </div>
-          </div><!-- /.container-fluid -->
-        </nav>
+    <body>
+      <header>
         <nav class="navbar navbar-default">
           <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -69,14 +45,34 @@
       </header>
       <section id="acquarius">
         <div class="container">
-          <div class="welcome col-md-6 col-lg-6 ">
-            <div class="phrase">
-              <h1>Welcome to the Developer cloud</h1>
-              <p>We make it simple to launch in the cloud and scale up as you grow - with an intuitive control panel , predictable pricing ,team account</p>
+          <div class="row">
+            <div id="jumbotron-left" class="col-md-6 jumbotron">
+              <h1>Welcome to the Devoloper cloud</h1>
+              <p>We make it simple to launch in the cloud and scale up as you grow - with an intuitive control panel , predictible pricing, team accoutns , and more.</p>
+            </div>
+            <div class="form-signin col-md-4 col-md-offset-2  text-center">
+              <h3>Deploy in seconds</h3>
+              <form>
+                <div class="form-group">
+                  <label class="sr-only" for="exampleInputEmail3">First Name</label>
+                    <input type="text" class="form-control" id="exampleInputEmail3" placeholder="First Name">
+                </div>
+                <div class="form-group">
+                  <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email Address">
+                </div>
+               <div class="form-group">
+                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+              </div>
+              <button type="button" class="sign-up-button">Sign up with email</button>
+              <button type="button" class="sign-up-google"><i class="fab fa-google"></i> Sign up with Google</button>
+              <h6>By signing up you agree to the Term of Service</h6>
+              </form>
             </div>
           </div>
-
         </div>
       </section>
-  </body>
+
+    </body>
 </html>

@@ -25,6 +25,8 @@
   font-weight: bolder;
 }
 
+/*Fine Heder*/
+/*Inizio container blu */
 .container {
   width:80%;
   margin: 0 auto ;
@@ -32,12 +34,60 @@
 
 #acquarius {
   background-color:#0069ff;
-  height: 800px;
+  background-image: url("https://www.digitalocean.com//static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+  background-size: cover;
+  background-position: center;
 }
 
+#jumbotron-left {
+  padding: 230px 0;
+  background-color: transparent;
+  color: white;
+}
 
+.form-signin {
+  padding: 0;
+  background-color: white;
+  margin-top:100px;
+  border-radius: 5px;
+}
 
-.welcome {
-  position: absolute;
-  top: 50%;
+.form-group:first-child {
+  margin-top: 20px;
+}
+
+.form-signin h3 {
+  background-color: #f3f5f9;
+ font-size: 25px;
+ font-weight: bold;
+ border-radius: 6px 6px 0 0;
+ margin: 0;
+ padding: 20px 0;
+}
+
+.form-group {
+  width:80%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.form-group input {
+    font-size: 20px;
+    padding: 20px 0 20px 10px;
+    border: 1px solid #e5e8ed;
+}
+
+form button {
+  width:80%;
+  color: white;
+  font-weight: bold;
+  background-color: #0069ff;
+  border: 1px solid #0069ff;
+  padding:12px 0;
+}
+
+.sign-up-google {
+  margin: 3px 0;
+  color: black;
+  background-color: white;
 }

@@ -196,7 +196,6 @@ form button {
 .subRow > h6 {
     font-size: 15px;
     font-weight: bolder;
-    padding: 15px 100px;
 }
 
 .inner {
@@ -246,6 +245,49 @@ form button {
     padding: 10px 55px 10px 0px;
 }
 
+/*Fine style card container */
+
+/*Inizio style trading*/
+#trading {
+    /*background-image: url("https://www.thefranchizery.com/wp-content/uploads/2016/01/30407-world-map-1920x1080-digital-art-wallpaper.jpg");*/
+    background-size: cover;
+    background-color: #031b4e;
+}
+
+.trading-head > h2 {
+    color: white;
+}
+
+.trading-head p {
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.trading-line {
+    padding: 5px 0;
+    border-bottom: 0.5px solid #354971;
+}
+
+.grid-2 {
+    display:grid;
+    grid-template-columns: auto auto;
+    background-color: inherit;
+    grid-column-gap: 10px;
+    padding: 30px 0;
+}
+
+.gef_cod {
+    color: white;
+}
+
+.gef_city {
+    color: #627191;
+}
+
+.gef_ts {
+    color: #00b9bd;
+}
 
 @media screen and (max-width: 992px) {
     .glyphicon-arrow-left{
@@ -254,5 +296,9 @@ form button {
 
     .glyphicon-arrow-right{
         display: none;
+    }
+
+    .grid-2 {
+        grid-template-columns: 1fr;
     }
 }

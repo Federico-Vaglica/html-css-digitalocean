@@ -1,8 +1,10 @@
-* {
+  * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+body {paddding:70px;}
 
 
 .headingPH {
@@ -289,6 +291,118 @@ form button {
     color: #00b9bd;
 }
 
+/*Fine Trading*/
+
+/*Inizio Secondo display*/
+
+.second-display {
+    background-color: #f3f5f9;
+}
+
+.image-display {
+    background-color: #ffffff;
+    padding:40px;
+}
+
+.image-display img {
+    padding: 50px;
+    max-width: 100%;
+    max-height:100%;
+}
+
+.image-display {
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+.founder h5 {
+    padding-bottom: 10px;
+}
+
+.founder h6 {
+    font-weight: lighter;
+}
+
+/*Fine Dispaly*/
+
+/*Inizio Blue banner */
+
+#blue-banner {
+    background-image: url(https://images.prismic.io/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg?auto=compress,format);
+    background-color: #0069ff;
+
+}
+
+
+.create-account {
+    margin: 35px;
+    padding: 10px;
+    color:#0069ff;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.center {
+    color: white;
+}
+
+
+/*Fine blue banner*/
+
+
+
+/*Inizio Footer*/
+
+#foot {
+    background-color: #010e28;
+}
+
+.container-menu {
+    border-bottom: 0.5px solid white;
+}
+
+.list {
+    padding:10px 20px;
+}
+
+.list ul li {
+    list-style-type: none;
+}
+
+.list a {
+    text-decoration: none;
+    color: #808794;
+}
+
+.list h5 {
+    color: white;
+}
+
+.logo-copy img {
+    display: inline-block;
+}
+
+.logo-copy p {
+    display: inline-block;
+}
+
+.link-footer ul {
+    margin-top: 10px;
+    padding: 0;
+    float: right;
+}
+
+.link-footer li {
+    margin-right: 5px;
+}
+
+.link-footer a {
+    font-size: 22px;
+}
+
+/*Fine Footer*/
 @media screen and (max-width: 992px) {
     .glyphicon-arrow-left{
         display: none
@@ -300,5 +414,20 @@ form button {
 
     .grid-2 {
         grid-template-columns: 1fr;
+    }
+
+    .second-button {
+        text-align: center;
+    }
+
+    .center {
+        text-align: center;
+
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .logo-copy {
+
     }
 }

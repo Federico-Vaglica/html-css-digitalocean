@@ -380,6 +380,11 @@ form button {
     color: white;
 }
 
+.logo-copy {
+    padding:10px;
+}
+
+
 .logo-copy img {
     display: inline-block;
 }
@@ -387,6 +392,10 @@ form button {
 .logo-copy p {
     display: inline-block;
     color: #808794;
+}
+
+.link-footer {
+    padding: 10px;
 }
 
 .link-footer ul {
